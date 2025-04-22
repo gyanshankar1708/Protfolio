@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoilio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Nav section start here -->
+    <nav class="d-flex justify-content-around align-items-center py-2  position-fixed z-3" id="scroll">
+        <a href="" class="text-light text-decoration-none">
+            <div class="d-lg-block bold fs-2 nav-links" id="logo">Gyanshankar Singh</div>
+        </a>
+        <button class="btn option-btn d-md-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+            <img src="icons/options.png" alt="" style="width: 20px;" class="option">
+        </button>
+
+
+        <div class="offcanvas-md offcanvas-end sidebar" tabindex="-1" id="offcanvasResponsive"
+            aria-labelledby="offcanvasResponsiveLabel">
+            <a href="#home" class="text-decoration-none text-light d-md-none p-3">
+                <h3 id="logo">Gyanshankar Singh</h3>
+            </a>
+            <ul class="d-flex flex-md-row flex-column links">
+                <a href="#home" class="text-decoration-none">
+                    <li class="p-2 nav-links">Home</li>
+                </a>
+                <a href="#about" class="text-decoration-none">
+                    <li class="p-2 nav-links">About</li>
+                </a>
+                <a href="#skills" class="text-decoration-none">
+                    <li class="p-2 nav-links">Skills</li>
+                </a>
+                <a href="#project" class="text-decoration-none">
+                    <li class="p-2 nav-links">Projects</li>
+                </a>
+                <a href="#contact" class="text-decoration-none">
+                    <li class="p-2 nav-links">Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- Home section start here -->
+    <div id="home">
+
+        <div class="card text-bg-dark">
+            <div class="dark"></div>
+            <img src="images/Gyanshankar.jpg" class="hero-img" alt="Profile Picture">
+            <div class="card-img-overlay d-flex flex-column justify-content-end  align-items-center">
+                <h1 class="card-title">I'm Gyanshankar Singh</h1>
+                <p class="card-text" id="display"> </p>
+                <a href="#about"><img src="icons/DownArrow.svg" alt="" width="50rem"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hone section ends here -->
+
+    <!-- About section starts here -->
+    <div id="about" class="d-flex justify-content-around card m-1 m-sm-5">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column flex-xl-row">
+                            <img src="images/GyanshankarSinghPhoto.jpg" class="card-img-top" alt="Gyanshankar Singh"
+                                style="width: 200px;" id="about-profile">
+                            <div class="card-body">
+                                <p class="aboutp"><span>Name : </span><span>Gyanshankar Singh</span></p>
+                                <p class="aboutp"><span>Email : </span><span>gyanshankar1708@gmail.com</span></p>
+                                <p class="aboutp"><span>Mobile : </span><span>+91 8210313115</span></p>
+                            </div>
+                        </div>
+                        <div class="topSkills">
+                            <h4>Top Skills</h4>
+                            <div class="container text-center mb-3">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 ">
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">HTML</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">CSS</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">JavaScript</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">Java</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">Python</div>
+                                    </div>
+                                    <!-- Put more Top Skills here -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="toolsNTech">
+                            <h4>Tools and Technology</h4>
+                            <div class="container text-center mb-3">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 ">
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">Git</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">GitHub</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">Bootstrap</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">Figma</div>
+                                    </div>
+                                    <!-- Put more Tools and technology here -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other">
+                            <h4>Other skills</h4>
+                            <div class="container text-center mb-3">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 ">
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">DSA</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-1 bg-secondary rounded text-light">MySQL</div>
+                                    </div>
+                                    <!-- Put More other Skills here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="card-body">
+                        <h1 class="card-title text-decoration-underline mb-5">About me</h1>
+                        <p class="card-text">Hey there! I’m Gyanshankar Singh, a frontend web developer who loves
+                            turning ideas into clean, functional websites. I work with HTML, CSS, JavaScript, and tools
+                            like Bootstrap to build responsive, user-friendly interfaces. I'm also familiar with Git and
+                            GitHub, so collaborating and keeping code organized is second nature to me.</p>
+                        <p class="card-text">Design is something I really enjoy—I'm comfortable using Figma to create
+                            smooth, intuitive UI/UX designs that look and feel great. On the logic and problem-solving
+                            side, I have a strong grasp of Data Structures and Algorithms, especially Arrays, Linked
+                            Lists, Binary Search, Sliding Window, and Bit Manipulation. I also have a basic
+                            understanding of MySQL, which helps when working with data or backend integration.</p>
+                        <p class="card-text">At the end of the day, I just enjoy building things—whether it’s a smart
+                            feature, a clean layout, or a simple solution to a complex problem. I’m always learning and
+                            looking for new ways to grow as a developer and designer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About section ends here -->
+
+    <!-- Skills Section starts here -->
+    <div id="skills" class="d-flex align-items-center flex-column m-1 m-sm-5">
+        <h1 class="text-decoration-underline">Skills:-</h1>
+        <div class="row text-center">
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/HTML.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">HTML (HyperText Markup Language) is the standard language for creating web
+                            pages. It structures content using elements like headings, paragraphs, links, and images.
+                            HTML forms the backbone of all websites and works with CSS and JavaScript to build
+                            interactive, styled, and well-structured web experiences for users.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/CSS.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">CSS (Cascading Style Sheets) is used to style and design HTML content. It
+                            controls layout, colors, fonts, spacing, and more. CSS allows web developers to create
+                            visually appealing websites and ensures consistency across multiple pages. It can be applied
+                            inline, internally, or via external stylesheets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/Javascript.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">JavaScript is a powerful scripting language used to add interactivity to
+                            web pages. It can control dynamic content, validate forms, create animations, and
+                            communicate with servers. JavaScript runs in the browser and is essential for modern web
+                            development, working alongside HTML and CSS to build responsive websites.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/Bootstrap.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Bootstrap is a popular front-end framework for developing responsive and
+                            mobile-first websites. It includes pre-designed components, CSS, and JavaScript-based
+                            templates. Bootstrap simplifies web development with its grid system, buttons, forms,
+                            modals, and navigation bars, helping developers build consistent and professional-looking
+                            interfaces quickly and efficiently.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/Github.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">GitHub is a cloud-based platform that hosts Git repositories. It allows
+                            developers to store, manage, and share code with others. GitHub supports collaboration
+                            through features like pull requests, issues, and project boards. It also provides tools for
+                            continuous integration, code review, and open-source contributions, making teamwork more
+                            organized and efficient.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/Python.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python is a versatile, high-level programming language known for its
+                            readability and simplicity. It supports multiple programming paradigms and is used in web
+                            development, data science, AI, automation, and more. Python's extensive libraries and
+                            community support make it ideal for beginners and professionals working on a wide range of
+                            projects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 col-lg-4 p-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <img src="images/Java.png" class="img-thumbnail skills-img" alt="...">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java is a high-level, object-oriented programming language known for its
+                            portability across platforms. It is widely used for building enterprise applications, mobile
+                            apps (especially Android), and web services. Java’s strong memory management, security
+                            features, and extensive libraries make it a reliable choice for robust software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more Skills here -->
+        </div>
+    </div>
+    <!-- Skills section ends here -->
+    <!-- Projects section starts here -->
+    <div id="project" class="d-flex flex-column align-items-center">
+        <h1 class="text-decoration-underline">Projects:-</h1>
+        <div class="row g-0 text-center">
+            <div class="col-12 col-sm-6 col-md-4 p-4">
+                <div class="card">
+                    <img src="images/RockPaperScissor.png" class="card-img-top project-img" alt="RockPaperScissor">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissor</h5>
+                        <p class="card-text">Websites</p>
+                        <a href="https://gyanshankar1708.github.io/Rock-Paper-Scissor/" class="btn btn-primary">Open
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 p-4">
+                <div class="card">
+                    <img src="images/ToDoList.png" class="card-img-top project-img" alt="RockPaperScissor">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do List</h5>
+                        <p class="card-text">Websites</p>
+                        <a href="https://gyanshankar1708.github.io/To-Do-List/" class="btn btn-primary">Open Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-4">
+                <div class="card">
+                    <img src="images/BookStore.png" class="card-img-top project-img" alt="RockPaperScissor">
+                    <div class="card-body">
+                        <h5 class="card-title">Book Store Website</h5>
+                        <p class="card-text">Websites</p>
+                        <a href="https://gyanshankar1708.github.io/Book-Store/" class="btn btn-primary">Open Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-4">
+                <div class="card">
+                    <img src="images/EduVoyage.png" class="card-img-top project-img" alt="RockPaperScissor">
+                    <div class="card-body">
+                        <h5 class="card-title">EduVoyage</h5>
+                        <p class="card-text">Web Design</p>
+                        <a href="https://www.figma.com/proto/RH3Jxp5T1uEJBCPTb6TktP/Hacker-s-Hive?node-id=51-3&starting-point-node-id=51%3A3&scaling=contain&content-scaling=fixed"
+                            class="btn btn-primary">Open Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </div>
+    <!-- Projects section ends here -->
+    <!-- Contact section start here -->
+    <footer id="contact" class="d-flex flex-column align-items-center">
+        <h1 class="text-decoration-underline">Contact Us :-</h1>
+        <div class="card bg-light p-5 d-flex flex-column flex-md-row align-items-center">
+            <div class="form">
+                <form>
+                    <fieldset class="d-flex flex-column align-items-center">
+                        <legend>
+                            <h3 class="text-decoration-underline">Send Message</h3>
+                        </legend>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3 d-flex flex-column">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" id="message" placeholder="Write your message"
+                                class="form-control"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" id="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="additional">
+                <div class="card-body">
+                    <p class="aboutp"><span><img src="icons/Location.png" alt="Location" class="contact-icon
+                                "> </span><span>Kharagia,
+                            Bihar, 851203</span></p>
+                    <p class="aboutp"><span><img src="icons/Letter.png" alt="Email" class="contact-icon
+                                        "> </span><span>gyanshankar1708@gmail.com</span></p>
+                    <p class="aboutp"><span><img src="icons/Phone.png" alt="Mobile" class="contact-icon
+                                "></span> <span>+91
+                            8210313115</span></p>
+                </div>
+                <div class="profiles">
+                    <h5 class="text-decoration-underline">Profiles :- </h5>
+                    <div class="d-flex justify-content-center">
+                        <span class="profile-url"><a href="https://leetcode.com/u/gyanshankar1708/"><img
+                                    src="images/Leetcode.png" alt="Leetcode" class="profile-url-img m-1"></a></span>
+                        <span class="profile-url"><a href="https://github.com/gyanshankar1708"><img
+                                    src="images/Github.png" alt="GitHub" class="profile-url-img m-1"></a></span>
+                        <span class="profile-url"><a href="https://www.geeksforgeeks.org/user/gyanshankar1708/"><img
+                                    src="images/GFG.png" alt="Geeks for Geeks" class="profile-url-img m-1"></a></span>
+                        <span class="profile-url"><a
+                                href="https://www.linkedin.com/in/gyanshankar-pd-singh-9786a5307/"><img
+                                    src="images/Linkedin.png" alt="Linkedin" class="profile-url-img m-1"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h5 id="Copyright">&copy; Copyright Gyanshankar. All Right Reserved</h5>
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
