@@ -37,5 +37,5 @@ window.addEventListener("scroll", () => {
 
 let btn = document.getElementById("submit");
 btn.addEventListener("click",()=>{
-  alert("Message sent")
+  alert("Message sent");
 })
